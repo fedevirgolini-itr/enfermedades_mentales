@@ -11,13 +11,13 @@ function Navbar() {
         <nav>
           <ul>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/">Grupo 1</a></li>
-            <li><a href="/">Grupo 2</a></li>
-            <li><a href="/">Grupo 3</a></li>
-            <li><a href="/">Grupo 4</a></li>
-            <li><a href="/">Grupo 5</a></li>
-            <li><a href="/">Grupo 6</a></li>
-            <li><a href="/">Grupo 7</a></li>
+            <li><a href="/grupo1">Grupo 1</a></li>
+            <li><a href="/grupo2">Grupo 2</a></li>
+            <li><a href="/grupo3">Grupo 3</a></li>
+            <li><a href="/grupo4">Grupo 4</a></li>
+            <li><a href="/grupo5">Grupo 5</a></li>
+            <li><a href="/grupo6">Grupo 6</a></li>
+            <li><a href="/grupo7">Grupo 7</a></li>
           </ul>
         </nav>
       </div>
