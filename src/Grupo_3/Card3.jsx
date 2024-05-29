@@ -4,7 +4,7 @@ function Card3() {
   return (
     <a href='/grupo3' className="group-card">
       <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
-      <h3>Tema del grupo</h3>
+      <h3>Ansiedad</h3>
       <p>
         Breve descripción.
       </p>

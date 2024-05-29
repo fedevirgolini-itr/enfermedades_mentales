@@ -1,0 +1,10 @@
+.default{
+    color: black;
+}
+.Ansiedad{
+  color: red;
+}
+.Position{
+  position: relative;
+  right: -100%;
+}
