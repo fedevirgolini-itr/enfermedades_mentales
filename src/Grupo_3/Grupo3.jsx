@@ -1,12 +1,16 @@
 import React from 'react'
 import './style.css'
 import { useState } from 'react';
-
+import Ventana from "./componentes.jsx"
 function Grupo3() {
   const[modo,setModo]=useState("default")
+
   const ChangeMode=()=>{
     if (modo==="default"){
       setModo("Ansiedad")
+
+      
+
     }else{
       setModo("default")
     }
@@ -22,7 +26,9 @@ function Grupo3() {
   <label class="form-check-label Position" for="flexSwitchCheckDefault"></label>
 </div>
       <h1 class={modo}>Página destinada para el contenido del grupo</h1>
-  
+    <Ventana modo={modo}/>
+    <Ventana modo={modo}/>
+    <Ventana modo={modo}/>
     </div>
   )
 }
