@@ -1,0 +1,15 @@
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+li p {
+    list-style: circle;
+    list-style-type: circle !important;
+}
