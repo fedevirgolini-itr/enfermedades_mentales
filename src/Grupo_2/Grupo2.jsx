@@ -88,7 +88,7 @@ function Conclusion() {
 
 function Grupo2() {
   return (
-    <div>
+    <div id="content">
       <h1>Página destinada para el contenido del grupo 2</h1>
       <Introduccion />
       <SintomasYTratamientos />
