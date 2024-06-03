@@ -5,7 +5,7 @@ function Grupo1() {
   return (
     <div class="depresion">
       <link rel="stylesheet" type="text/css" href="css/index.css"></link>
-      <div class="hola">
+      <div class="texto">
         <center>
           <h1 class="white">La depresión</h1>
         </center>
