@@ -2,6 +2,8 @@ import React from 'react'
 
 function Card4() {
   return (
+    
+    
     <a href='/grupo4' className="group-card">
       <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
       <h3>Tema del grupo</h3>
@@ -14,6 +16,7 @@ function Card4() {
         luctus molestie volutpat, platea himenaeos hac viverra ad urna, scelerisque sodales mattis ridiculus suscipit.
       </p>
     </a>
+    
   )
 }
 
