@@ -3,9 +3,7 @@ import './Grupo4.css';
 
 function Modularizacion() {
   return (
-    <a href="/imagenes">
-        <img src="downloads.png" alt="foto pertinente al tema" />
-      </a>
+          <img src="imagenes/download.png" alt="foto pertinente al tema" />
   );
 }
 

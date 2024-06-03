@@ -5,10 +5,10 @@ function Card4() {
     
     
     <a href='/grupo4' className="group-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
-      <h3>Tema del grupo</h3>
+      <img src="imagenes/download.png" alt="foto pertinente al tema" />
+      <h3><b>Trastorno Obsesivo Compulsivo (TOC) de Limpieza</b></h3>
       <p>
-        Breve descripción.
+      Comprendiendo y Apoyando a quienes lo Padecen.
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipiscing elit, venenatis duis at himenaeos sociis
