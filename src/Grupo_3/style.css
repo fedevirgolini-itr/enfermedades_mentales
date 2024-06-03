@@ -13,7 +13,10 @@
   text-align: left;
 }
 
-<<<<<<< Updated upstream
+#lista{
+  margin-left:5%;
+}
+
 .ansiedad-ventana{
   position: relative;
   background: red;
@@ -22,14 +25,10 @@
   left: 50px;
   border-color:black;
   border-width: 50px;
-=======
-#lista{
-  margin-left:5%;
 }
 
 .Ansiedad{
   color: red;
->>>>>>> Stashed changes
 }
 .Position{
   position: relative;
