@@ -12,26 +12,33 @@
     margin:auto;
 }
 
+#container {
+    background-color:#e3ecff;
+}
+
+#container .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: TheBoldFont !important;
+}
+
 #content .title {
     font-size: 50px;
     text-align: center;
     font-family: TheBoldFont !important;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+    background-color:#e3ecff;
 }
 
-#introduccion{
-    display: block;
-    background-color:beige;
-}
 
-#content .title font{
+#container .title font{
     font-family: TheBoldFont !important;
 }
 
-#content #mainTitle {
+#container #mainTitle {
+    margin-top: 40px;
     font-size: 90px;
-    text-align:justify;
+    
 }
 
 #content p {

@@ -4,10 +4,18 @@ import FOTO1 from "./TDHA1.jpg"
 import FOTO2 from "./TDAH2.jpg"
 import FOTO3 from "./TDAH3.jpeg"
 
+function Titulo() {
+  return (
+    <div>
+      <h1 class = "title">Grupo 2</h1>
+      <h1 class = "title" id='mainTitle'><font color="#00107a">T</font>rastorno por<br/> <font color="#00107a">D</font>eficit de <br/><font color="#00107a">A</font>tencion e <br/><font color="#00107a">H</font>iperactividad:</h1>
+    </div>
+  )
+}
+
 function Introduccion() {
   return (
     <div>
-      <h1 class = "title" id='mainTitle'><font color="#00107a">T</font>rastorno por<br/> <font color="#00107a">D</font>eficit de <br/><font color="#00107a">A</font>tencion e <br/><font color="#00107a">H</font>iperactividad:</h1>
       <p>El Trastorno por Déficit de Atención e Hiperactividad (TDAH) se trata de un desorden neuropsiquiátrico del desarrollo
         que afecta la capacidad para prestar atención, controlar ciertos impulsos y/o actividad de los que lo padecen.</p>
       <p>Es encontrado más común en jóvenes menores de 16 o 17 años, pero estos también pueden persistir en la edad adulta.
@@ -91,16 +99,19 @@ function Conclusion() {
 
 function Grupo2() {
   return (
+  <div>
+    <div id='container'><Titulo /></div>
     <div id="content">
-      <h1 class = "title">Grupo 2</h1>
-      <Introduccion />
-      <br />
-      <SintomasYTratamientos />
-      <br />
-      <CausasYManejo/>
-      <br />
-      <Conclusion />
+    <Introduccion />
+    <br />
+    <SintomasYTratamientos />
+    <br />
+    <CausasYManejo/>
+    <br />
+    <Conclusion />
     </div>
+  </div>
+    
   )
 }
 
