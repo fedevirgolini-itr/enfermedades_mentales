@@ -12,30 +12,42 @@
     margin:auto;
 }
 
-h1 {
+#content .title {
+    font-size: 50px;
+    text-align: center;
     font-family: TheBoldFont !important;
-    margin-top: 10px;
-    margin-left: -10px;
-    margin-bottom: 10px;
-    margin-right: -10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.title {
-    font-size: 90px !important;
+#introduccion{
+    display: block;
+    background-color:beige;
 }
 
-.title font{
+#content .title font{
     font-family: TheBoldFont !important;
 }
 
-p {
+#content #mainTitle {
+    font-size: 90px;
+    text-align:justify;
+}
+
+#content p {
     margin: 10px;
     font-family: LouisGeorgeCafe;
     font-size: 20px;
 }
 
-li p {
-    text-align: center;
+#content img {
+    display: block;
+    margin: auto;
+}
+
+
+#content li p {
+    
     font-family: LouisGeorgeCafe;
     padding:10px;
 }
