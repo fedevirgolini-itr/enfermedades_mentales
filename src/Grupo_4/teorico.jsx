@@ -3,36 +3,31 @@ import React from 'react';
 function Teorico() {
   return (
     <>
-      <h1 className="titulo">Un equipo plagado de estrellas, llega a la copa del mundo con un objetivo</h1>
-      <p className="texto">El Xenieze acudió a la Copa del Mundo 2000 con el objetivo de ganar el título por segunda vez en su
-        historia.
-        Este equipo estaba compuesto por algunos de los mejores jugadores del mundo, incluyendo a <a
-          href="https://es.wikipedia.org/wiki/Juan_Rom%C3%A1n_Riquelme" className="link-dark" target="_blank">Juan Román
-          Riquelme</a>,
-        <a href="https://es.wikipedia.org/wiki/Martín_Palermo" className="link-dark" target="_blank">Palermo</a>, <a
-          href="https://es.wikipedia.org/wiki/Hugo_Ibarra" className="link-dark" target="_blank">Ibarra</a> y <a
-          href="https://es.wikipedia.org/wiki/Óscar_Córdoba" className="link-dark" target="_blank">Óscar Córdoba</a>, entre
-        otros.
+      <h1 className="titulo">Trastorno Obsesivo Compulsivo (TOC) de limpieza</h1>
+      <p1 className="texto">
+        Comprendiendo y Apoyando a quienes lo Padecen
+        El Trastorno Obsesivo Compulsivo (TOC) de limpieza es una enfermedad mental que afecta a millones de personas en todo el mundo. Se lo caracteriza por pensamientos repetitivos y compulsivos sobre la limpieza y el orden, lo que puede causar gran ansiedad y sufrimiento. Es importante comprender esta condición para brindar el apoyo necesario a quienes la padecen.
+      </p1>
+      <img class="image" src="imagenes/tocimg1.jpg" alt="" />
 
-        Estas estrellas se unieron para intentar ganar la Copa Intercontinental y convertirse en el segundo equipo de
-        fútbol en ganarle este torneo al real madrid.
+      <h2 className="titulo"> Desarrollo </h2>
+      <p2 className="texto">
+        El TOC de limpieza se manifiesta en pensamientos obsesivos sobre la contaminación y el contagio, llevando a las personas a realizar rituales compulsivos de limpieza. Esto puede interferir significativamente en la vida diaria, consumiendo mucho tiempo y generando estrés. Las causas del TOC de limpieza son multifacéticas, incluyendo factores genéticos, ambientales y psicológicos, como una ansiedad elevada desde la infancia.
+      </p2>
+      <img class="image" src="imagenes/tocimg2.jpg" alt="" />
 
-        ¿De qué manera los jugadores xeniezes lograron alcanzar el sueño de ganar la Copa Intercontinental del 2000?
-        Los lograron alcanzar el sueño de ganar la Copa ante los "Galacticos" del equipo madrileño gracias al trabajo en
-        equipo, una excelente
-        táctica de juego, el liderazgo de los capitanes y la motivación de todos los jugadores.
+      <h3 className="titulo">Tratamiento </h3>
+      <p3>
+        El tratamiento para el TOC de limpieza puede incluir terapia cognitivo-conductual, medicamentos y terapia de exposición y respuesta preventiva (ERP). La terapia cognitivo-conductual ayuda a reemplazar los pensamientos compulsivos, mientras que la ERP implica la exposición gradual a situaciones que provocan ansiedad para aprender a tolerarla.Es fundamental para quiénes es rodean a alguien con TOC de limpieza entender la enfermedad y brindar apoyo y comprensión. No se debe facilitar los comportamientos compulsivos, sino fomentar la comunicación abierta y ofrecer un oído atento para que la persona pueda expresar sus sentimientos y pensamientos sin juicio.
+      </p3>
+      <img class="image" src="imagenes/tocimg3.jpg" alt="" />
 
-        El entrenador, <a href="https://es.wikipedia.org/wiki/Carlos_Bianchi" className="link-dark" target="_blank">Carlos "El
-          Virrey" Bianchi</a>, desarrolló un plan estratégico para el equipo, diferenciándose de
-        otros equipos con una defensa más agresiva y un ataque más agresivo.
+      <h4 className="titulo">Conclusión</h4>
+      <p4>
+        El TOC de limpieza es una condición seria que puede afectar profundamente la calidad de vida de quienes la padecen. Sin embargo, con comprensión, apoyo y tratamiento adecuado, es posible manejar los síntomas y mejorar la calidad de vida de quienes sufren esta enfermedad.
+      </p4>
+      <img class="image" src="imagenes/download.png" alt="" />
 
-        La unión de todos los jugadores fue clave para su éxito, los jugadores se apoyaron entre ellos durante los
-        entrenamientos y partidos, lo que les permitió desarrollar una excelente coordinación entre los jugadores, así
-        como una mejor comprensión de los roles de cada uno.
-
-        Por último, los jugadores de la escuadra boquense tuvieron un gran impulso de motivación para lograr el objetivo
-        de ganar la Copa del Mundo 2000, lo que les permitió salir victoriosos.
-      </p>
     </>
   );
 }
