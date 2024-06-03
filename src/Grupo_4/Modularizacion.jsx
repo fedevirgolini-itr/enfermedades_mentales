@@ -3,7 +3,11 @@ import './Grupo4.css';
 
 function Modularizacion() {
   return (
-          <img src="imagenes/download.png" alt="foto pertinente al tema" />
+   <> <center><video src="videos/dama_llora_desorden.mp4" class="palermo" controls> </video></center>
+    <br />
+    <center><b>Dama de casa llora al ver el desorden bajo el sillon</b></center>
+    <br></br>
+    </>
   );
 }
 
