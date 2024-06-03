@@ -1,0 +1,18 @@
+.mi-elemento{
+  width: 99%;
+  height: 87vh;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  background:linear-gradient(to top, #d4e09b, #cbdfbd );
+}
+
+h1 {
+  color: #f19c79;
+
+}
+
+h3 {
+  color: #f6f4d2;
+
+}

@@ -1,10 +1,23 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
+import Sintomas from './sintomas';
+import Conclusion from './conclusion';
+import Acompañamiento from './acompañamiento';
+import Tratamiento from './tratamiento';
+import Causas from './causas';
 
 function Grupo6() {
   return (
-    <div>
-      <h1>Página destinada para el contenido del grupo</h1>
-    </div>
+    <main >
+      <div class="mi-elemento">
+        <Causas />
+        <Sintomas />
+        <Tratamiento />
+        <Acompañamiento />
+        <Conclusion />
+
+      </div>
+    </main>
   )
 }
 
