@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import { useState } from 'react';
 import Ventana from "./componentes.jsx"
+
 function Grupo3() {
   const[modo,setModo]=useState("default")
 
@@ -27,6 +28,7 @@ function Grupo3() {
       <p class={modo} >
         La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales. Es crucial entender sus síntomas, causas y opciones de tratamiento para brindar un apoyo efectivo a quienes la padecen.
       </p>
+      <h4 id='subtitulo' class={modo}>¿Cómo definimos la ansiedad en sí?</h4>
     </div>
   </div>
   )

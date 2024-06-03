@@ -1,11 +1,16 @@
 .default{
-    color: black;
-    margin-left: 20%;
+    color: #000000;
+    margin-left: 30%;
     text-align:left;
   }
 
 #titulo{
     text-align: center;
+}
+
+#subtitulo{
+  margin-top:5%;
+  text-align: left;
 }
 
 .Ansiedad{
