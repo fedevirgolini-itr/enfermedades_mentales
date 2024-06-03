@@ -1,10 +1,21 @@
 import React from 'react'
 
+import './Grupo5.css';
+import Sintomas from './Síntomas y Manifestaciones';
+import Enfoques from './Enfoques de Tratamiento';
+import Conclusion from './Conclusiones y Recomendaciones';
+import Causas from './Causas y Factores Asociados ';
+
+
+
 function Grupo5() {
   return (
-    <div>
-      <h1>Página destinada para el contenido del grupo</h1>
-    </div>
+    <main >
+      <Sintomas/>
+      <Enfoques/>
+      <Grupos/>
+    </main>
+
   )
 }
 
