@@ -1,6 +1,13 @@
 .default{
     color: black;
+    margin-left: 20%;
+    text-align:left;
+  }
+
+#titulo{
+    text-align: center;
 }
+
 .Ansiedad{
   color: red;
 }
