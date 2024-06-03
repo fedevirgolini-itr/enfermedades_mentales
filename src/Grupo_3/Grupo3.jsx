@@ -30,6 +30,7 @@ function Grupo3() {
       </p>
       <h4 id='subtitulo' class={modo}>¿Cómo definimos la ansiedad en sí?</h4>
     </div>
+    <Ventana mod={modo}/>
   </div>
   )
 }

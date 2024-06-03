@@ -1,4 +1,4 @@
 function Ventana(props) {
-    return  <div class={props.modo} >rer</div>
+    return  <div class={props.mod+"-ventana"} ></div>
   }
   export default Ventana;
