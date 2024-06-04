@@ -70,8 +70,8 @@ function CausasYManejo() {
     <div>
       <img src={FOTO3} alt="" width="55%"/>
       <p>Las causas para el TDAH no son específicas. Algunas razones explícitas para el trastorno pueden ser:</p>
-      <ul>
-      <li><p>Factores genéticos, bioquímicos, sensitivomotores, fisiológicos y/o conductuales.</p></li>
+      <ul>      
+        <li><p>Factores genéticos, bioquímicos, sensitivomotores, fisiológicos y/o conductuales.</p></li>  
         <li><p>Exposición al plomo.</p></li>
         <li><p>Deficiencia de hierro.</p></li>
         <li><p>Peso al nacer menor a  1.500 g.</p></li>
@@ -84,6 +84,7 @@ function CausasYManejo() {
     </div>
   );
 }
+
 
 function Conclusion() {
   return (
