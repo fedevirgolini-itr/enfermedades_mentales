@@ -1,11 +1,12 @@
 import React from 'react'
 import './style.css'
 import { useState } from 'react';
-import Ventana from "./componentes.jsx"
+import Ventana from "./Ventanas.jsx"
 
 function Grupo3() {
   const[modo,setModo]=useState("default")
-
+const[positionX,setPositionX]=useState([50,"after",90])
+const[lucky,SetLucky]=useState(0)
   const ChangeMode=()=>{
     if (modo==="default"){
       setModo("ansiedad")
@@ -13,6 +14,18 @@ function Grupo3() {
       setModo("default")
     }
     
+  }
+  function MoreText(){
+    if(modo=="default"){
+      setPositionX([-30,"Position"])
+    }
+    else{
+      setPositionX([Math.random()*90,"after", Math.random()*300])
+      if(lucky>=Math.random() * 20){
+        setPositionX([-30,"Position",0])
+    }
+    SetLucky(lucky+1)
+    }
   }
   return (
     <div>
@@ -23,17 +36,17 @@ function Grupo3() {
       </input>
       <label class="form-check-label Position" for="flexSwitchCheckDefault"></label>
     </div>
-      <h1 id='titulo' class={modo}>Ansiedad</h1>
-    <div class={modo} >
+      <h1 class={`${modo} titulo Position`}>Ansiedad</h1>
+    <div class={`${modo} Position`} >
       <p>
         La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales. Es crucial entender sus síntomas, causas y opciones de tratamiento para brindar un apoyo efectivo a quienes la padecen.
       </p>
-      <h4 id='subtitulo'>¿Cómo definimos la ansiedad en sí?</h4>
+      <h4 class={`${modo} subtitulo Position`}>¿Cómo definimos la ansiedad en sí?</h4>
       <p>
         La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones acelerdas.
       </p>
       <h3>Una de las formas de detectarla es a través de los síntomas. Estos síntomas son:</h3>
-      <ul id='lista'>
+      <ul class='lista'>
         <li>Dificultad para respirar</li>
         <li>Palpitaciones aceleradas</li>
         <li>Sensación de mareo</li>
@@ -44,11 +57,19 @@ function Grupo3() {
         <li>Molestias inexplicables</li>
         <li>Dolores</li>
         <li>Pánico</li>
-        <li>Debilidad o cansancio</li>
+        <li>Debilclassad o cansancio</li>
         <li>Problemas para concentrarse o para pensar en algo que no sea la preocupación actual</li>
       </ul>
     </div>
+    <button class="MoreText" style={{ left: `${positionX[0]}%` , top: `${positionX[2]}px`}} onClick={()=>MoreText()}>Seguir leyendo</button>
     <Ventana mod={modo}/>
+    <div class={ `${positionX[1]} ${modo}`} >
+    <h4 class='subtitulo'>La ansiedad puede ser causada de distintas formas </h4>
+      <p>
+        La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales. Es crucial entender sus síntomas, causas y opciones de tratamiento para brindar un apoyo efectivo a quienes la padecen.
+      </p>
+      <h4 class='subtitulo'>¿Cómo definimos la ansiedad en sí?</h4>
+      </div>
   </div>
   )
 }

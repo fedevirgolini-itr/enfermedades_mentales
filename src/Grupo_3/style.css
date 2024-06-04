@@ -1,7 +1,6 @@
 .default{
     color: #000000;
-    margin-left: 30%;
-    text-align:left;
+    
   }
 
 #titulo{
@@ -13,19 +12,18 @@
   text-align: left;
 }
 
-<<<<<<< HEAD
-.ansiedad-ventana-1{
-=======
+
 #lista{
   margin-left:5%;
 }
 
-.ansiedad-ventana{
->>>>>>> f851b855f5f01e64fb208d962f7d3084198e0a77
+.ansiedad-ventana-1{
   position: relative;
   background-image: url("imgs/popUp-1.png");
-  width: 400px;
-  height: 200px;
+  
+  width: 250px;
+  height: 175px;
+  padding: 0%;
   background-size: contain; 
   background-repeat:no-repeat;
 
@@ -33,8 +31,8 @@
 .ansiedad-ventana-2{
   position: relative;
   background-image: url("imgs/popUp-2.png");
-  width: 400px;
-  height: 200px;
+  width: 185px;
+  height: 100px;
   background-size: contain; 
   background-repeat:no-repeat;
 
@@ -42,7 +40,7 @@
 .ansiedad-ventana-3{
   position: relative;
   background-image: url("imgs/popUp-3.png");
-  width: 400px;
+  width: 315px;
   height: 200px;
   background-size: contain; 
   background-repeat:no-repeat;
@@ -51,7 +49,7 @@
 .ansiedad-ventana-4{
   position: relative;
   background-image: url("imgs/popUp-4.png");
-  width: 400px;
+  width: 200px;
   height: 200px;
   background-size: contain; 
   background-repeat:no-repeat;
@@ -60,17 +58,32 @@
 .ansiedad-ventana-5{
   position: relative;
   background-image: url("imgs/popUp-5.png");
-  width: 800px;
-  height: 400px;
+  width: 400px;
+  height: 352px;
   background-size: contain; 
   background-repeat:no-repeat;
 
 }
 
-.Ansiedad{
-  color: red;
+.ansiedad{
+  color: #000000;
+  margin-left: 30%;
+  text-align:left;
 }
 .Position{
   position: relative;
-  right: -100%;
+  margin-left: 30%;
+    text-align:left;
+}
+.after{
+  position: relative;
+  left: -3000px;
+   
+}
+.MoreText{
+  position: relative;
+ background-color: rgb(185, 185, 185);
+ background-size: auto;
+ border-radius: 10px;
+border: 0px;
 }
