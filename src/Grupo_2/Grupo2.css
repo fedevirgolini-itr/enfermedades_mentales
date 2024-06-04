@@ -1,15 +1,61 @@
-h1 {
-    margin: 20px;
-    text-align: center;
+@font-face {
+    font-family: LouisGeorgeCafe;
+    src: url("Louis George Cafe.ttf") format('truetype');
+}
+@font-face {
+    font-family: TheBoldFont;
+    src: url("THE BOLD FONT - FREE VERSION - 2023.ttf");
 }
 
-p {
+#content {
+    max-width: 900px;
+    margin:auto;
+}
+
+#container {
+    background-color:#e3ecff;
+}
+
+#container .title {
+    font-size: 50px;
     text-align: center;
+    font-family: TheBoldFont !important;
+}
+
+#content .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: TheBoldFont !important;
+    background-color:#e3ecff;
+}
+
+#container .mainTitle {
+    font-size: 50px;
+    text-align: center;
+    font-family: TheBoldFont !important;
+    font-size: 90px;
+    text-align:justify;
+    text-indent: 30%;
+}
+#container .mainTitle font{
+    font-family: TheBoldFont !important;
+}
+
+#content p {
     margin: 10px;
+    font-family: LouisGeorgeCafe;
     font-size: 20px;
 }
 
-li p {
-    list-style: circle;
-    list-style-type: circle !important;
+#content img {
+    display: block;
+    margin: auto;
+
+}
+
+
+#content li p {
+    
+    font-family: LouisGeorgeCafe;
+    padding:10px;
 }

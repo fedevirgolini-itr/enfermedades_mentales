@@ -1,17 +1,16 @@
 import React from 'react'
+import FOTO3 from "./TDAH3.jpeg"
 
 function Card2() {
   return (
     <a href='/grupo2' className="group-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
-      <h3>Tema del grupo</h3>
+      <img src={FOTO3}/>
+      <h3>TDAH</h3>
       <p>
-        Breve descripción.
+        Breve descripción:
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit, venenatis duis at himenaeos sociis
-        fringilla semper, pretium mattis lobortis augue maecenas gravida. Dictum blandit tempus habitasse
-        luctus molestie volutpat, platea himenaeos hac viverra ad urna, scelerisque sodales mattis ridiculus suscipit.
+        El Trastorno por Déficit de Atención e Hiperactividad (TDAH) es un desorden neuropsiquiátrico del desarrollo que dificulta la capacidad de atención, el control de impulsos y la regulación de la actividad en quienes lo padecen.
       </p>
     </a>
   )
