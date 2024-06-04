@@ -13,18 +13,58 @@
   text-align: left;
 }
 
+<<<<<<< HEAD
+.ansiedad-ventana-1{
+=======
 #lista{
   margin-left:5%;
 }
 
 .ansiedad-ventana{
+>>>>>>> f851b855f5f01e64fb208d962f7d3084198e0a77
   position: relative;
-  background: red;
-  height: 100px;
-  width: 200px;
-  left: 50px;
-  border-color:black;
-  border-width: 50px;
+  background-image: url("imgs/popUp-1.png");
+  width: 400px;
+  height: 200px;
+  background-size: contain; 
+  background-repeat:no-repeat;
+
+}
+.ansiedad-ventana-2{
+  position: relative;
+  background-image: url("imgs/popUp-2.png");
+  width: 400px;
+  height: 200px;
+  background-size: contain; 
+  background-repeat:no-repeat;
+
+}
+.ansiedad-ventana-3{
+  position: relative;
+  background-image: url("imgs/popUp-3.png");
+  width: 400px;
+  height: 200px;
+  background-size: contain; 
+  background-repeat:no-repeat;
+
+}
+.ansiedad-ventana-4{
+  position: relative;
+  background-image: url("imgs/popUp-4.png");
+  width: 400px;
+  height: 200px;
+  background-size: contain; 
+  background-repeat:no-repeat;
+
+}
+.ansiedad-ventana-5{
+  position: relative;
+  background-image: url("imgs/popUp-5.png");
+  width: 800px;
+  height: 400px;
+  background-size: contain; 
+  background-repeat:no-repeat;
+
 }
 
 .Ansiedad{
