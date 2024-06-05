@@ -4,7 +4,7 @@ function Tratamiento() {
     return (
         <div>
 
-            <h1>¿Qué tratamiento tiene?</h1>
+            <h2>¿Qué tratamiento tiene?</h2>
             <br />
             <h3>El tratamiento para la dismorfia corporal generalmente incluye:
                 Terapia cognitivo-conductual (TCC): ayuda a identificar y modificar los pensamientos distorsionados sobre la apariencia.

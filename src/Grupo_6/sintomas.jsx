@@ -3,8 +3,8 @@ import React from 'react'
 function Sintomas() {
     return (
         <div>
-            <h1>¿Cuáles son sus síntomas?
-            </h1>
+            <h2>¿Cuáles son sus síntomas?
+            </h2>
             <br />
             <h3>Los síntomas de la dismorfia corporal incluyen:
                 Preocupación persistente por uno o más defectos físicos.

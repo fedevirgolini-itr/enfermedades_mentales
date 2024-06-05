@@ -3,7 +3,8 @@ import React from 'react';
 function Causas() {
     return (
         <div>
-            <h1>¿Cuáles pueden ser sus causas?</h1>
+            <h1>Dismorfia Corporal</h1>
+            <h2>¿Cuáles pueden ser sus causas?</h2>
             <br />
             <h3>    Las causas de la dismorfia corporal no se comprenden completamente, pero se cree que son una combinación de factores:
                 Genética: La predisposición a la dismorfia corporal puede ser hereditaria.

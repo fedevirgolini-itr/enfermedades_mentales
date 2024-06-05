@@ -4,7 +4,7 @@ function Acompañamiento() {
     return (
         <div>
 
-            <h1>¿Cómo acompañar a una persona que tiene esta enfermedad?</h1>
+            <h2>¿Cómo acompañar a una persona que tiene esta enfermedad?</h2>
             <br />
 
             <h3>Es importante ser comprensivo, paciente y no crítico. Puedes ayudar a la persona con TDC:

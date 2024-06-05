@@ -11,9 +11,13 @@ function Grupo6() {
     <main >
       <div class="mi-elemento">
         <Causas />
+        <br />
         <Sintomas />
+        <br />
         <Tratamiento />
+        <br />
         <Acompañamiento />
+        <br />
         <Conclusion />
 
       </div>
