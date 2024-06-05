@@ -9,10 +9,8 @@ function Card3() {
         Breve descripción.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit, venenatis duis at himenaeos sociis
-        fringilla semper, pretium mattis lobortis augue maecenas gravida. Dictum blandit tempus habitasse
-        luctus molestie volutpat, platea himenaeos hac viverra ad urna, scelerisque sodales mattis ridiculus suscipit.
-      </p>
+      En esta sección de nuestra página, explorarán el tema de la ansiedad. La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales.<br></br> A lo largo de esta sección, aprenderán sobre los síntomas, causas y opciones de tratamiento para la ansiedad, así como formas de brindar apoyo a quienes la padecen.<br></br> Juntos, exploraremos cómo comprender y abordar este desafío común de manera efectiva.
+</p>
     </a>
   )
 }
