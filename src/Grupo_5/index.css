@@ -1,0 +1,13 @@
+.container {
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .image-container {
+    display: inline-block; /* Hace que el contenedor sea en línea para que el texto y la imagen estén centrados */
+  }
+  
+  img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  

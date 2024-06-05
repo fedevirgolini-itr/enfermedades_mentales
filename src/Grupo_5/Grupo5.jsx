@@ -1,19 +1,21 @@
 import React from 'react'
 
-import './Grupo5.css';
-import Sintomas from './Síntomas y Manifestaciones';
-import Enfoques from './Enfoques de Tratamiento';
-import Conclusion from './Conclusiones y Recomendaciones';
-import Causas from './Causas y Factores Asociados ';
-
-
+import Sintomas from './Sintomas';
+import Enfoques from './Enfoques';
+import Conclusion from './Conclusiones';
+import Causas from './Causas';
+import Definición from './Definición';
+import Apoyo from './Apoyo';
 
 function Grupo5() {
   return (
     <main >
+      <Definición/>
       <Sintomas/>
+      <Causas/>
       <Enfoques/>
-      <Grupos/>
+      <Apoyo/>
+      <Conclusion/>
     </main>
 
   )
