@@ -1,15 +1,33 @@
-
-.texto{
+.texto {
+    text-align: center;
     font-size: larger;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.image{
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.image {
     width: 300px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px; 
 }
 
-body{
-    background: rgb(174,238,232);
-    background: radial-gradient(circle, rgba(174,238,232,1) 0%, rgba(148,187,233,1) 100%);
+.video {
+    width: 600px;
+    height: 450px;
+}
+
+body {
+    background-attachment: fixed;
+    background: rgb(174, 238, 232);
+    background: radial-gradient(circle, rgba(174, 238, 232, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px; 
 }
