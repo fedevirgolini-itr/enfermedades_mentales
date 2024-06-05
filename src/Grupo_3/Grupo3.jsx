@@ -46,8 +46,8 @@ const[lucky,SetLucky]=useState(0)
         <div className="card">
         <img src={ansiedadImage} alt="Imagen de ejemplo" className="card-img" />
           <div className="card-content">
-            <h3 className="card-title">Título de la tarjeta</h3>
-            <p className="card-description">Esta es una breve descripción de la tarjeta.</p>
+            <h3 className="card-title">Otros síntomas</h3>
+            <p className="card-description">SIntomas extras a los descriptos en el articulo.</p>
           </div>
         </div>
       </div>
@@ -57,9 +57,9 @@ const[lucky,SetLucky]=useState(0)
     <div class='content'>
     <div class={`${modo} Position`} >
     <h1 id='titulo' class={`${modo} Position`}>Ansiedad</h1>
-      <p>
+      <article>
         La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales. Es crucial entender sus síntomas, causas y opciones de tratamiento para brindar un apoyo efectivo a quienes la padecen.
-      </p>
+      </article>
       <h4 id='subtitulo' class={modo} >¿Cómo definimos la ansiedad en sí?</h4>
       <p>
         La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones acelerdas.
