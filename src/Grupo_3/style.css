@@ -2,14 +2,18 @@
     color: #000000;
   }
 
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+  height: 100vh;
+}
 
 .card {
-  margin-right: 80%;
-  margin-left: 2%;
+  margin-top: 35%;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
   padding: 1%;
 }
 
@@ -17,7 +21,7 @@
     text-align: center;
 }
 
-.subtitulo{
+#subtitulo{
   position: relative;
   margin-top:5%;
   text-align: left !important;
@@ -31,7 +35,6 @@
 .ansiedad-ventana-1{
   position: relative;
   background-image: url("imgs/popUp-1.png");
-  
   width: 250px;
   height: 175px;
   padding: 0%;
@@ -104,7 +107,6 @@
 }
 .default{
   position: relative;
-  margin-left: 30%;
   text-align:left;
 }
 .after{
@@ -116,9 +118,7 @@
 
 .ansiedad {
   position: absolute;
-
-  margin-left: 30%;
-    text-align:left;
+  text-align:left;
   bottom: 0;
   animation: caer 5s linear infinite; 
 }
@@ -135,6 +135,7 @@
 }
 .MoreText{
   position: relative;
+  background-color: rgb(185,185,185);
   background: transparent;
   border: none;
   text-decoration: underline;

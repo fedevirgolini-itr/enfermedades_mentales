@@ -21,7 +21,7 @@ const[lucky,SetLucky]=useState(0)
   }
 
 
-   
+
   function MoreText(){
     if(modo==="default"){
       setPositionX([-30,"Position"])
@@ -35,18 +35,28 @@ const[lucky,SetLucky]=useState(0)
     }
   }
   return (
-    <div>
+    <div class='container'>
+      <div>    
+        <div class="form-check form-switch">
+          <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault" onChange={()=>ChangeMode()}>
+          </input>
+          <label class="form-check-label " for="flexSwitchCheckDefault"></label>
+        </div>
+      
+        <div className="card">
+        <img src={ansiedadImage} alt="Imagen de ejemplo" className="card-img" />
+          <div className="card-content">
+            <h3 className="card-title">Título de la tarjeta</h3>
+            <p className="card-description">Esta es una breve descripción de la tarjeta.</p>
+          </div>
+        </div>
+      </div>
 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
-      <div class="form-check form-switch">
-      <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault" onChange={()=>ChangeMode()}>
-        
-      </input>
-      <label class="form-check-label " for="flexSwitchCheckDefault"></label>
-    </div>
 
-      <h1 id='titulo' class={`${modo} Position`}>Ansiedad</h1>
+    <div class='content'>
     <div class={`${modo} Position`} >
+    <h1 id='titulo' class={`${modo} Position`}>Ansiedad</h1>
       <p>
         La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales. Es crucial entender sus síntomas, causas y opciones de tratamiento para brindar un apoyo efectivo a quienes la padecen.
       </p>
@@ -102,6 +112,7 @@ const[lucky,SetLucky]=useState(0)
           La ansiedad es realmente dura y puede cambiar completamente la vida cotidiana de alguien. Pero hay esperanza. Hablar con alguien, ya sea un terapeuta o un médico, puede ayudar un montón. Y simplemente entender y ser amable con las personas que están pasando por esto puede marcar una gran diferencia. Con el tratamiento correcto y un poco de ayuda, podemos manejar la ansiedad y hacer que las cosas sean un poco más fáciles. </p>
         </div>
       <Ventana mod={modo}/>
+      </div>
   </div>
   )
 }
