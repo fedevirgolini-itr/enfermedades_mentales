@@ -113,6 +113,8 @@ function Grupo2() {
     <CausasYManejo/>
     <br />
     <Conclusion />
+    <h1 class = "title">Juego interactivo:</h1>
+    <iframe src="https://editor.p5js.org/KaidaCat/full/yuT_399fwk" width="810px" height="650px"></iframe>
     </div>
   </div>
     
