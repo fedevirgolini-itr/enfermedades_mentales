@@ -1,14 +1,26 @@
+.default{
+    color: #000000;
+  }
 
 
-.titulo{
-  position: relative;
+.card {
+  margin-right: 80%;
+  margin-left: 2%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1%;
+}
+
+#titulo{
     text-align: center;
 }
 
 .subtitulo{
   position: relative;
   margin-top:5%;
-  text-align: left;
+  text-align: left !important;
 }
 
 
@@ -93,28 +105,22 @@
 .default{
   position: relative;
   margin-left: 30%;
-    text-align:left;
+  text-align:left;
 }
 .after{
   position: relative;
   left: -3000px;
   top: -10000px;
-   
+
 }
-.MoreText{
-  position: relative;
- background-color: rgb(185, 185, 185);
- background-size: auto;
- border-radius: 10px;
-border: 0px;
-}
+
 .ansiedad {
   position: absolute;
 
   margin-left: 30%;
     text-align:left;
   bottom: 0;
-  animation: caer 5s linear infinite; /* Cambia la duración y el tipo de animación según tus necesidades */
+  animation: caer 5s linear infinite; 
 }
 
 @keyframes caer {
@@ -122,6 +128,14 @@ border: 0px;
     transform: translateY(-100%);
   }
   100% {
-    transform: translateY(200vh); /* Hace que el texto caiga hasta el final de la página */
+    transform: translateY(200vh); 
   }
+
+
+}
+.MoreText{
+  position: relative;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
 }

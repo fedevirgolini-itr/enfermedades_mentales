@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
+import ansiedadImage from './imgs/icon.jpg'; 
 
 function Card3() {
   return (
     <a href='/grupo3' className="group-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
+      <img src={ansiedadImage} alt="foto pertinente al tema" />
       <h3>Ansiedad</h3>
       <p>
         Breve descripción.
       </p>
       <p>
-      En esta sección de nuestra página, explorarán el tema de la ansiedad. La ansiedad es un trastorno común que afecta a muchas personas en todo el mundo, manifestándose a través de síntomas físicos y emocionales.<br></br> A lo largo de esta sección, aprenderán sobre los síntomas, causas y opciones de tratamiento para la ansiedad, así como formas de brindar apoyo a quienes la padecen.<br></br> Juntos, exploraremos cómo comprender y abordar este desafío común de manera efectiva.
-</p>
+      La ansiedad es una respuesta natural del cuerpo al estrés, caracterizada por una sensación de preocupación o temor sobre lo que está por venir. Aunque es una emoción normal, cuando se vuelve excesiva o persistente, puede interferir con la vida diaria y requerir atención profesional. La ansiedad puede manifestarse a través de síntomas físicos como palpitaciones, sudoración, y tensión muscular, así como síntomas psicológicos como inquietud, irritabilidad y dificultad para concentrarse.
+      </p>
     </a>
-  )
+  );
 }
 
 export default Card3;
