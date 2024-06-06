@@ -5,7 +5,7 @@ function Modularizacion() {
   return (
    <> <center><video class="video" src="videos/dama_llora_desorden.mp4"controls> </video></center>
     <br />
-    <center><b>Dama de casa llora al ver el desorden bajo el sillon</b></center>
+    <center><b>Limpiador compulsivo limpia por primera vez la parte de atras del sillon de una mujer</b></center>
     <br></br>
     </>
   );
