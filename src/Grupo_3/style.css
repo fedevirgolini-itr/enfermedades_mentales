@@ -1,142 +1,241 @@
-.default{
+/* Color para ansiedad y default */
+.ansiedad,
+.default {
     color: #000000;
-  }
+    text-align: left;
+}
 
+/* Contenedor principal */
 .container {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 20px;
-  height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    height: 100vh;
 }
 
+/* Tarjeta */
 .card {
-  margin-top: 35%;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1%;
+    margin-top: 35%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1%;
 }
 
-#titulo{
+/* Títulos */
+#titulo {
     text-align: center;
 }
 
-#subtitulo{
-  position: relative;
-  margin-top:5%;
-  text-align: left !important;
+#subtitulo {
+    position: relative;
+    margin-top: 5%;
+    text-align: left !important;
 }
 
-
-#lista{
-  margin-left:5%;
+/* Lista */
+#lista {
+    margin-left: 5%;
 }
 
-.ansiedad-ventana-1{
-  position: relative;
-  background-image: url("imgs/popUp-1.png");
-  width: 250px;
-  height: 175px;
-  padding: 0%;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-2{
-  position: relative;
-  background-image: url("imgs/popUp-2.png");
-  width: 185px;
-  height: 100px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-3{
-  position: relative;
-  background-image: url("imgs/popUp-3.png");
-  width: 315px;
-  height: 200px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-4{
-  position: relative;
-  background-image: url("imgs/popUp-4.png");
-  width: 200px;
-  height: 200px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-5{
-  position: relative;
-  background-image: url("imgs/popUp-5.png");
-  width: 400px;
-  height: 352px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-6{
-  position: relative;
-  background-image: url("imgs/popUp-6.png");
-  width: 250px;
-  height: 100px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-7{
-  position: relative;
-  background-image: url("imgs/popUp-7.png");
-  width: 200px;
-  height: 200px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.ansiedad-ventana-8{
-  position: relative;
-  background-image: url("imgs/popUp-8.png");
-  width: 400px;
-  height: 250px;
-  background-size: contain; 
-  background-repeat:no-repeat;
-
-}
-.default{
-  position: relative;
-  text-align:left;
-}
-.after{
-  position: relative;
-  left: -3000px;
-  top: -10000px;
-
+/* Ventanas de ansiedad */
+.ansiedad-ventana-1 {
+    position: relative;
+    background-image: url("imgs/popUp-1.png");
+    width: 250px;
+    height: 175px;
+    padding: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+.ansiedad-ventana-2 {
+    position: relative;
+    background-image: url("imgs/popUp-2.png");
+    width: 185px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-3 {
+    position: relative;
+    background-image: url("imgs/popUp-3.png");
+    width: 315px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-4 {
+    position: relative;
+    background-image: url("imgs/popUp-4.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-5 {
+    position: relative;
+    background-image: url("imgs/popUp-5.png");
+    width: 400px;
+    height: 352px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-6 {
+    position: relative;
+    background-image: url("imgs/popUp-6.png");
+    width: 250px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-7 {
+    position: relative;
+    background-image: url("imgs/popUp-7.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ansiedad-ventana-8 {
+    position: relative;
+    background-image: url("imgs/popUp-8.png");
+    width: 400px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Posiciones de ansiedad */
 .ansiedad {
-  position: absolute;
-  text-align:left;
-  bottom: 0;
-  animation: caer 5s linear infinite; 
+    position: absolute;
+    text-align: left;
+    bottom: 0;
 }
 
+.ansiedad-caer {
+    animation: caer 5s linear infinite;
+}
+
+.ansiedad-subir {
+    animation: subir 5s linear infinite;
+}
+
+.ansiedad-izquierda {
+    animation: izquierda 5s linear infinite;
+}
+
+.ansiedad-derecha {
+    animation: derecha 5s linear infinite;
+}
+.ansi-0 {
+  background-image: url("imgs/ansi.jpg");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+  
+}
+.ansi-1 {
+  background-image: url("imgs/ansi-1.png");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+.ansi-2 {
+  background-image: url("imgs/ansi-2.png");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+.ansi-3 {
+  background-image: url("imgs/ansi-3.png");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+.ansi-4 {
+  background-image: url("imgs/ansi-4.png");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+.ansi-5 {
+  background-image: url("imgs/ansi-5.png");
+  width: 380px;
+  height: 385px;
+  background-size: contain;
+background-repeat: no-repeat;
+}
+/* Posiciones por defecto */
+.default-caer,
+.default-subir,
+.default-izquierda,
+.default-derecha {
+    position: relative;
+    margin-left: 30%;
+    text-align: left;
+}
+
+/* Animaciones */
 @keyframes caer {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(200vh); 
-  }
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(200vh);
+    }
+}
 
+@keyframes subir {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-200vh);
+    }
+}
+
+@keyframes izquierda {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(200vh);
+    }
+}
+
+@keyframes derecha {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-200vh);
+    }
+}
+
+/* Botón de más texto */
+.MoreText {
+    position: relative;
+    background-color: rgb(178, 178, 178);
+    border-color: transparent;
+    border-radius: 50px;
 
 }
-.MoreText{
-  position: relative;
-  background-color: rgb(185,185,185);
-  background: transparent;
-  border: none;
-  text-decoration: underline;
+
+/* Clases auxiliares */
+.after {
+    position: relative;
+    left: -3000px;
+    top: -10000px;
 }
