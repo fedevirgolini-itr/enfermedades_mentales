@@ -1,0 +1,60 @@
+@font-face {
+    font-family: LouisGeorgeCafe;
+    src: url("Louis George Cafe.ttf") format('truetype');
+}
+@font-face {
+    font-family: TheBoldFont;
+    src: url("THE BOLD FONT - FREE VERSION - 2023.ttf");
+}
+
+#content {
+    max-width: 900px;
+    margin:auto;
+}
+
+#container {
+    background-color:#e3ecff;
+}
+
+#container .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: TheBoldFont !important;
+}
+
+#content .title {
+    font-size: 50px;
+    text-align: center;
+    font-family: TheBoldFont !important;
+
+    background-color:#e3ecff;
+}
+
+
+#container .title font{
+    font-family: TheBoldFont !important;
+}
+
+#container #mainTitle {
+    margin-top: 40px;
+    font-size: 90px;
+    
+}
+
+#content p {
+    margin: 10px;
+    font-family: LouisGeorgeCafe;
+    font-size: 20px;
+}
+
+#content img {
+    display: block;
+    margin: auto;
+}
+
+
+#content li p {
+    
+    font-family: LouisGeorgeCafe;
+    padding:10px;
+}
