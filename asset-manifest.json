@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/enfermedades_mentales/static/css/main.5325c81a.css",
-    "main.js": "/enfermedades_mentales/static/js/main.22e7519c.js",
+    "main.js": "/enfermedades_mentales/static/js/main.c636d076.js",
     "static/media/cupula.jpg": "/enfermedades_mentales/static/media/cupula.8f2c38ea7a87bf204db4.jpg",
     "static/media/popUp-8.png": "/enfermedades_mentales/static/media/popUp-8.45fae807012d8beecb2d.png",
     "static/media/ansi-4.png": "/enfermedades_mentales/static/media/ansi-4.413d8d325c0520d342e3.png",
@@ -24,10 +24,10 @@
     "static/media/popUp-6.png": "/enfermedades_mentales/static/media/popUp-6.b50e3e744d6deec53e15.png",
     "index.html": "/enfermedades_mentales/index.html",
     "main.5325c81a.css.map": "/enfermedades_mentales/static/css/main.5325c81a.css.map",
-    "main.22e7519c.js.map": "/enfermedades_mentales/static/js/main.22e7519c.js.map"
+    "main.c636d076.js.map": "/enfermedades_mentales/static/js/main.c636d076.js.map"
   },
   "entrypoints": [
     "static/css/main.5325c81a.css",
-    "static/js/main.22e7519c.js"
+    "static/js/main.c636d076.js"
   ]
 }
