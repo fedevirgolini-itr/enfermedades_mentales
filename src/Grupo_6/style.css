@@ -7,7 +7,7 @@
   background:linear-gradient(to top, #BFAFA6, #D4D2D5 );
 }
 
-h1 {
+.mi-elemento h1 {
 color: darkblue;
 text-align: center;
 margin: 20px;
@@ -15,7 +15,7 @@ margin-bottom: 40px;
 text-decoration: underline
 }
 
-h2 {
+.mi-elemento h2 {
   font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -23,7 +23,7 @@ h2 {
   color: #6C698D;
 }
 
-h3 {
+.mi-elemento h3 {
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 15px;
   margin-right: 10px;
