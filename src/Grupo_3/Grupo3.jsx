@@ -65,7 +65,7 @@ function Grupo3() {
         </div>
       
         <div className="card">
-          <img  className={`"card-img"  ansi-${ansiedadImage}`}/>
+          <img alt='' className={`"card-img"  ansi-${ansiedadImage}`}/>
           <div className="card-content">
             <h3 className="card-title">Otros síntomas</h3>
             <p className="card-description">Síntomas extras a los descritos en el artículo.</p>
