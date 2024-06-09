@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/enfermedades_mentales/static/css/main.5325c81a.css",
+    "main.js": "/enfermedades_mentales/static/js/main.8953c75f.js",
+    "static/media/cupula.jpg": "/enfermedades_mentales/static/media/cupula.8f2c38ea7a87bf204db4.jpg",
+    "static/media/popUp-8.png": "/enfermedades_mentales/static/media/popUp-8.45fae807012d8beecb2d.png",
+    "static/media/ansi-4.png": "/enfermedades_mentales/static/media/ansi-4.413d8d325c0520d342e3.png",
+    "static/media/ansi-3.png": "/enfermedades_mentales/static/media/ansi-3.01039149b91eed778428.png",
+    "static/media/ansi-2.png": "/enfermedades_mentales/static/media/ansi-2.072baf9f0552db43fa78.png",
+    "static/media/ansi-5.png": "/enfermedades_mentales/static/media/ansi-5.a0770c3514c665707f56.png",
+    "static/media/ansi-1.png": "/enfermedades_mentales/static/media/ansi-1.a9cfaadc4e325c95a804.png",
+    "static/media/TDAH3.jpeg": "/enfermedades_mentales/static/media/TDAH3.21ad4148aacc32a78ace.jpeg",
+    "static/media/popUp-1.png": "/enfermedades_mentales/static/media/popUp-1.5521b21bc564ba06bbb0.png",
+    "static/media/icon.jpg": "/enfermedades_mentales/static/media/icon.bded432d009c93ef7d50.jpg",
+    "static/media/card1.png": "/enfermedades_mentales/static/media/card1.17b30c07589171e20dfc.png",
+    "static/media/popUp-3.png": "/enfermedades_mentales/static/media/popUp-3.3be8b138670dd657b1b0.png",
+    "static/media/ansi.jpg": "/enfermedades_mentales/static/media/ansi.b87e958f9cedc2c8a14a.jpg",
+    "static/media/Louis George Cafe.ttf": "/enfermedades_mentales/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
+    "static/media/THE BOLD FONT - FREE VERSION - 2023.ttf": "/enfermedades_mentales/static/media/THE BOLD FONT - FREE VERSION - 2023.702ffedb8c929d86dc69.ttf",
+    "static/media/popUp-4.png": "/enfermedades_mentales/static/media/popUp-4.3c2106cce3d8c31441fa.png",
+    "static/media/TDAH2.jpg": "/enfermedades_mentales/static/media/TDAH2.0012ddbb50f61a24fc62.jpg",
+    "static/media/TDHA1.jpg": "/enfermedades_mentales/static/media/TDHA1.34964b3ae18d3160a6f2.jpg",
+    "static/media/popUp-2.png": "/enfermedades_mentales/static/media/popUp-2.e0029f80a4c03a8fad6b.png",
+    "static/media/popUp-6.png": "/enfermedades_mentales/static/media/popUp-6.b50e3e744d6deec53e15.png",
+    "index.html": "/enfermedades_mentales/index.html",
+    "main.5325c81a.css.map": "/enfermedades_mentales/static/css/main.5325c81a.css.map",
+    "main.8953c75f.js.map": "/enfermedades_mentales/static/js/main.8953c75f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5325c81a.css",
+    "static/js/main.8953c75f.js"
+  ]
+}
