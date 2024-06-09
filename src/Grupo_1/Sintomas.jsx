@@ -1,4 +1,4 @@
-export default function () {
+export default function Sintomas() {
   return (
     <div class="Sintomas">
       <h2 class="white">

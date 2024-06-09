@@ -1,4 +1,4 @@
-export default function () {
+export default function Acompanamiento() {
   return (
     <div class="Acompañar">
       <h2 class="white">

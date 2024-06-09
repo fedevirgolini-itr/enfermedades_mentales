@@ -1,4 +1,4 @@
-export default function () {
+export default function Tratamiento() {
   return (
     <div class="Tratamientio">
       <h2 class="white">

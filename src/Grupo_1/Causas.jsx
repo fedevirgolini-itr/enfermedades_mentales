@@ -1,4 +1,4 @@
-export default function () {
+export default function Causas() {
   return (
     <div class="Causas">
       <h2 class="white">

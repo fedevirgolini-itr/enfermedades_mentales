@@ -4,7 +4,7 @@ import QueEsDepresion from "./QueEsDepresion";
 import Sintomas from "./Sintomas";
 import Causas from "./Causas";
 import Tratamiento from "./Tratamiento";
-import Acompañamiento from "./Acompañamiento";
+import Acompanamiento from "./Acompanamiento";
 
 function Grupo1() {
   return (
@@ -16,7 +16,7 @@ function Grupo1() {
       <Causas/>
       <Sintomas/>
       <Tratamiento/>
-      <Acompañamiento/>
+      <Acompanamiento/>
     </div>
   );
 }
