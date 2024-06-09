@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,13 +11,13 @@ function Navbar() {
         </div>
         <nav>
           <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/grupo1">Grupo 1</a></li>
-            <li><a href="/grupo2">Grupo 2</a></li>
-            <li><a href="/grupo3">Grupo 3</a></li>
-            <li><a href="/grupo4">Grupo 4</a></li>
-            <li><a href="/grupo5">Grupo 5</a></li>
-            <li><a href="/grupo6">Grupo 6</a></li>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/grupo1">Grupo 1</Link></li>
+            <li><Link to="/grupo2">Grupo 2</Link></li>
+            <li><Link to="/grupo3">Grupo 3</Link></li>
+            <li><Link to="/grupo4">Grupo 4</Link></li>
+            <li><Link to="/grupo5">Grupo 5</Link></li>
+            <li><Link to="/grupo6">Grupo 6</Link></li>
           </ul>
         </nav>
       </div>

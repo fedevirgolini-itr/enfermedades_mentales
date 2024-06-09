@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Card6() {
   return (
-    <a href='/grupo6' className="group-card">
+    <Link to='/grupo6' className="group-card">
       <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1427E/production/_123785528_785290d5-55d8-4aa0-8461-78e4da7b7cd1.jpg" alt="foto pertinente al tema" />
       <h3>Dismorfia corporal</h3>
       <p>
@@ -14,7 +15,7 @@ function Card6() {
         que se caracteriza por una preocupación persistente y desmesurada por uno o más defectos físicos.
         Estos defectos pueden ser reales o imaginarios, y a menudo son leves o imperceptibles para los demás.
       </p>
-    </a>
+    </Link>
   )
 }
 

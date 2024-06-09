@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Inicio from './Inicio/Inicio';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Grupo1 from './Grupo_1/Grupo1';
 import Grupo2 from './Grupo_2/Grupo2';
@@ -14,7 +14,7 @@ import Grupo6 from './Grupo_6/Grupo6';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <BrowserRouter>
+   <HashRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Inicio />} />
@@ -26,6 +26,6 @@ root.render(
           <Route path='grupo6' element={<Grupo6/>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
