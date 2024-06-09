@@ -1,20 +1,19 @@
-import React from 'react'
+import React from 'react';
+import ansiedadImage from './imgs/icon.jpg'; 
 
 function Card3() {
   return (
     <a href='/grupo3' className="group-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
-      <h3>Tema del grupo</h3>
+      <img src={ansiedadImage} alt="foto pertinente al tema" />
+      <h3>Ansiedad</h3>
       <p>
         Breve descripción.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit, venenatis duis at himenaeos sociis
-        fringilla semper, pretium mattis lobortis augue maecenas gravida. Dictum blandit tempus habitasse
-        luctus molestie volutpat, platea himenaeos hac viverra ad urna, scelerisque sodales mattis ridiculus suscipit.
+      La ansiedad es una respuesta natural del cuerpo al estrés, caracterizada por una sensación de preocupación o temor sobre lo que está por venir. Aunque es una emoción normal, cuando se vuelve excesiva o persistente, puede interferir con la vida diaria y requerir atención profesional. La ansiedad puede manifestarse a través de síntomas físicos como palpitaciones, sudoración, y tensión muscular, así como síntomas psicológicos como inquietud, irritabilidad y dificultad para concentrarse.
       </p>
     </a>
-  )
+  );
 }
 
 export default Card3;
