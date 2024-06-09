@@ -6,7 +6,6 @@ import Card3 from '../Grupo_3/Card3';
 import Card4 from '../Grupo_4/Card4';
 import Card5 from '../Grupo_5/Card5';
 import Card6 from '../Grupo_6/Card6';
-import Card7 from '../Grupo_7/Card7';
 
 export default function Grupos() {
   return (
@@ -19,7 +18,6 @@ export default function Grupos() {
             <Card4 />
             <Card5 />
             <Card6 />
-            <Card7 />
           </div>
         </section>
   )

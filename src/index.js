@@ -10,7 +10,6 @@ import Grupo3 from './Grupo_3/Grupo3';
 import Grupo4 from './Grupo_4/Grupo4';
 import Grupo5 from './Grupo_5/Grupo5';
 import Grupo6 from './Grupo_6/Grupo6';
-import Grupo7 from './Grupo_7/Grupo7';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +24,6 @@ root.render(
           <Route path='grupo4' element={<Grupo4/>} />
           <Route path='grupo5' element={<Grupo5/>} />
           <Route path='grupo6' element={<Grupo6/>} />
-          <Route path='grupo7' element={<Grupo7/>} />
         </Route>
       </Routes>
     </BrowserRouter>

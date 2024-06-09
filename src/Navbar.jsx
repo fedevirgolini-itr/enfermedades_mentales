@@ -17,7 +17,6 @@ function Navbar() {
             <li><a href="/grupo4">Grupo 4</a></li>
             <li><a href="/grupo5">Grupo 5</a></li>
             <li><a href="/grupo6">Grupo 6</a></li>
-            <li><a href="/grupo7">Grupo 7</a></li>
           </ul>
         </nav>
       </div>
