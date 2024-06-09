@@ -1,0 +1,61 @@
+.container {
+    display: block;
+    text-align: center; /* Centra el contenido */
+    background-color: #f7ee97;
+  }
+  h1 {
+    text-align: center;
+    /*margin: 20px;*/
+  }
+  h2{
+    margin-top: 100px;
+    
+  }
+  p {
+    margin: 20px; /* Aplica 20px de margen en todos los lados */
+    text-indent: 2em; /* Puedes ajustar el valor según tus necesidades */
+  }
+  .titulo-lindo {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  .cabeceraimg{
+    width: 400px;
+    height: 350px;
+  }
+  .inicioimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 250px;
+    height: 250px;
+  }
+  .definicionimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 200px;
+    height: 180px;
+  }
+  .sintomasimg{
+    width: 200px;
+    height: 150px;
+  }
+  .causasimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 250px;
+    height: 190px;
+  }
+  .enfoquesimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 270px;
+    height: 180px;
+  }
+  .apoyoimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 250px;
+    height: 180px;
+  }
+  .concluimg{
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 300px;
+    height: 230px;
+  }

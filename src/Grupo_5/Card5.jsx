@@ -9,7 +9,7 @@ function Card5() {
         Breve descripción...
       </p>
       <p>
-      El trastorno bipolar es una condición mental que provoca cambios extremos en el estado de ánimo, desde episodios de euforia o alta energía (manía o hipomanía) hasta periodos de profunda tristeza y desesperación (depresión). Aunque sus causas no están completamente definidas, se cree que intervienen factores genéticos, cerebrales y ambientales. El tratamiento suele combinar medicamentos estabilizadores del estado de ánimo, terapia y apoyo integral para permitir a quienes lo padecen llevar una vida equilibrada y productiva.
+        El trastorno bipolar es una condición mental que provoca cambios extremos en el estado de ánimo, desde episodios de euforia o alta energía (manía o hipomanía) hasta periodos de profunda tristeza y desesperación (depresión). Aunque sus causas no están completamente definidas, se cree que intervienen factores genéticos, cerebrales y ambientales. El tratamiento suele combinar medicamentos estabilizadores del estado de ánimo, terapia y apoyo integral para permitir a quienes lo padecen llevar una vida equilibrada y productiva.
       </p>
     </a>
   )

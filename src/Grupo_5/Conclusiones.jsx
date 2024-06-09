@@ -3,18 +3,13 @@ import React from 'react'
 function Conclusion() {
   return (
     <section className="Conclusion">
-        <div className='Conclusion-text'>
-          <div>
-            <h1> Conclusiones y Recomendaciones </h1>
-            <div className="container">
-            <div className="image-container">
-              <img src="./conclu.png" alt="Descripción de la imagen" />
-            </div>
-          </div>
-            <p>El trastorno bipolar es una condición mental caracterizada por cambios extremos en el estado de ánimo, la energía y los niveles de actividad. Estos cambios pueden manifestarse en episodios de manía o hipomanía (estados de ánimo elevados, exaltados, con alta energía, impulsividad y comportamientos de riesgo, característicos del trastorno bipolar), que son estados de ánimo elevados, así como en episodios de depresión, que son estados de ánimo bajos.</p>
-          </div>
-        </div>
-      </section>
+      <div className='Conclusion-text'>
+        <h1> Conclusiones y Recomendaciones </h1>
+        <img class='concluimg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnQJ7nFt_VsY3wlS6xhcutrLznmrVzLvLNw&usqp=CAU" alt="Descripción de la imagen" />
+        <p>En resumen, el trastorno bipolar es una condición compleja que requiere un enfoque <b>holístico</b> (enfoque que considera al individuo en su totalidad, abarcando aspectos físicos, mentales, emocionales y espirituales para promover la salud integral), para su manejo. Es fundamental que tanto los individuos afectados como sus seres queridos se informen sobre la enfermedad y estén preparados para abordar sus diversas facetas. Con el apoyo adecuado, la comprensión y el tratamiento adecuado, las personas con trastorno bipolar pueden llevar una vida plena y productiva.</p>
+
+      </div>
+    </section>
   )
 }
 
