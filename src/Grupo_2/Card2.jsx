@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import FOTO3 from "./TDAH3.jpeg"
 
 function Card2() {
   return (
     <Link to='/grupo2' className="group-card">
-      <img src={FOTO3}/>
+      <img alt='TDAH' src={FOTO3}/>
       <h3>TDAH</h3>
       <p>
         Breve descripción:
