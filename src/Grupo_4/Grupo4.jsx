@@ -5,7 +5,7 @@ import Modularizacion from './Modularizacion';
 import Pola from './agregados';
 function Grupo4() {
   return (
-      <main >
+      <main className='grupo4-body'>
         <Teorico/>
         <Modularizacion/>
         <Pola/>

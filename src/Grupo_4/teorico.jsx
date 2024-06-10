@@ -2,10 +2,10 @@ import React from 'react';
 import './Grupo4.css'
 function Teorico() {
   return (
-    <div className='container'>
+    <div className='container-g4'>
       <h1 className="titulo">Trastorno Obsesivo Compulsivo (TOC) de limpieza</h1>
       <div className='seccion'>
-      <img className="image-left" src="imagenes/tocimg1.jpg" alt="" />
+      <img className="image-left" src={`${process.env.PUBLIC_URL}/imagenes/tocimg1.jpg`} alt="" />
       <div className="texto">
         <p>
         Comprendiendo y Apoyando a quienes lo Padecen</p>
@@ -22,10 +22,10 @@ function Teorico() {
         El TOC de limpieza se manifiesta en pensamientos obsesivos sobre la contaminación y el contagio, llevando a las personas a realizar rituales compulsivos de limpieza. Esto puede interferir significativamente en la vida diaria, consumiendo mucho tiempo y generando estrés. Las causas del TOC de limpieza son multifacéticas, incluyendo factores genéticos, ambientales y psicológicos, como una ansiedad elevada desde la infancia.
         </p>
         </div>
-      <img class="image-right" src="imagenes/tocimg2.jpg" alt="" />
+      <img className="image-right" src={`${process.env.PUBLIC_URL}/imagenes/tocimg2.jpg`} alt="" />
       </div>
       <div className='seccion'>
-        <img class="image-left" src="imagenes/tocimg3.jpg" alt="" />
+        <img className="image-left" src={`${process.env.PUBLIC_URL}/imagenes/tocimg3.jpg`} alt="" />
         <div className='texto'>
         <h3>Tratamiento </h3>
       <p>
@@ -39,7 +39,7 @@ function Teorico() {
       <p>
         El TOC de limpieza es una condición seria que puede afectar profundamente la calidad de vida de quienes la padecen. Sin embargo, con comprensión, apoyo y tratamiento adecuado, es posible manejar los síntomas y mejorar la calidad de vida de quienes sufren esta enfermedad.
       </p>
-      <img class="image-right" src="imagenes/download.png" alt="" />
+      <img className="image-right" src={`${process.env.PUBLIC_URL}/imagenes/download.png`} alt="" />
           </div>
         </div>
       </div>

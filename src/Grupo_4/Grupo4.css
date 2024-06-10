@@ -1,4 +1,4 @@
-.container{
+.container-g4{
     padding: 20px;
 }
 .texto {
@@ -39,7 +39,7 @@
     height: 450px;
 }
 
-body {
+.grupo4-body {
     background-attachment: fixed;
     background: rgb(0, 161, 145);
     background: radial-gradient(circle, rgb(0, 217, 255) 0%, rgba(148, 187, 233, 1) 100%);
