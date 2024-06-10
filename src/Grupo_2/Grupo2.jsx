@@ -8,7 +8,10 @@ function Titulo() {
   return (
     <div>
       <h1 class = "title">Grupo 2</h1>
-      <h1 class = "title" id='mainTitle'><font color="#00107a">T</font>rastorno por<br/> <font color="#00107a">D</font>eficit de <br/><font color="#00107a">A</font>tencion e <br/><font color="#00107a">H</font>iperactividad:</h1>
+      <h1 class='mainTitle'><font color="#00107a">T</font>rastorno por</h1>
+      <h1 class='mainTitle'> <font color="#00107a">D</font>eficit de </h1>
+      <h1 class='mainTitle'><font color="#00107a">A</font>tencion e </h1>
+      <h1 class='mainTitle'><font color="#00107a">H</font>iperactividad:</h1>
     </div>
   )
 }
@@ -110,6 +113,8 @@ function Grupo2() {
     <CausasYManejo/>
     <br />
     <Conclusion />
+    <h1 class = "title">Juego interactivo:</h1>
+    <iframe src="https://editor.p5js.org/KaidaCat/full/yuT_399fwk" width="810px" height="650px"></iframe>
     </div>
   </div>
     

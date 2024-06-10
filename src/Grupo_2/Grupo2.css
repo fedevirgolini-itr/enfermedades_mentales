@@ -26,19 +26,20 @@
     font-size: 50px;
     text-align: center;
     font-family: TheBoldFont !important;
-
     background-color:#e3ecff;
 }
 
-
-#container .title font{
+#container .mainTitle {
+    font-size: 50px;
+    text-align: center;
     font-family: TheBoldFont !important;
+    font-size: 90px;
+    text-align:justify;
+    text-indent: 30%;
 }
 
-#container #mainTitle {
-    margin-top: 40px;
-    font-size: 90px;
-    
+#container .mainTitle font{
+    font-family: TheBoldFont !important;
 }
 
 #content p {
