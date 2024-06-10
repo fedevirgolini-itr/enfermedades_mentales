@@ -5,7 +5,7 @@ function Card4() {
     
     
     <a href='/grupo4' className="group-card">
-      <img src="imagenes/tocimg4.png" alt="foto pertinente al tema" />
+      <img src="imagenes/tocimg4.jpg" alt="foto pertinente al tema" />
       <h3><b>Trastorno Obsesivo Compulsivo (TOC) de Limpieza</b></h3>
       <p>
       Comprendiendo y Apoyando a quienes lo Padecen.

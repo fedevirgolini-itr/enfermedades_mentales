@@ -42,7 +42,7 @@
 body {
     background-attachment: fixed;
     background: rgb(0, 161, 145);
-    background: radial-gradient(circle, rgb(6, 126, 114) 0%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, rgb(0, 217, 255) 0%, rgba(148, 187, 233, 1) 100%);
     padding: 20px;
     cursor: url('/public/imagenes/escobilla_baño.jpeg'), auto;
 }
