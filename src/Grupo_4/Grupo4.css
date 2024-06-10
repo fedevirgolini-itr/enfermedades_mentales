@@ -1,0 +1,48 @@
+.container{
+    padding: 20px;
+}
+.texto {
+    flex: 1;
+    padding:20px;
+    text-align: justify;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.seccion{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 40px;
+}
+
+.image-left,
+.image-right,
+.image-gif {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px; 
+    object-fit: cover;
+}
+
+.video {
+    width: 600px;
+    height: 450px;
+}
+
+body {
+    background-attachment: fixed;
+    background: rgb(0, 161, 145);
+    background: radial-gradient(circle, rgb(0, 217, 255) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px;
+    cursor: url('/public/imagenes/escobilla_baño.jpeg'), auto;
+}

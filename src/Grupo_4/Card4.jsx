@@ -2,18 +2,19 @@ import React from 'react'
 
 function Card4() {
   return (
+    
+    
     <a href='/grupo4' className="group-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/2648/2648811.png" alt="foto pertinente al tema" />
-      <h3>Tema del grupo</h3>
+      <img src="imagenes/tocimg4.jpg" alt="foto pertinente al tema" />
+      <h3><b>Trastorno Obsesivo Compulsivo (TOC) de Limpieza</b></h3>
       <p>
-        Breve descripción.
+      Comprendiendo y Apoyando a quienes lo Padecen.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit, venenatis duis at himenaeos sociis
-        fringilla semper, pretium mattis lobortis augue maecenas gravida. Dictum blandit tempus habitasse
-        luctus molestie volutpat, platea himenaeos hac viverra ad urna, scelerisque sodales mattis ridiculus suscipit.
+  El Trastorno Obsesivo Compulsivo (TOC) de limpieza es una condición mental que afecta a millones de personas globalmente, caracterizada por pensamientos recurrentes y compulsiones relacionadas con la limpieza y el orden. Estos pensamientos pueden desencadenar ansiedad y sufrimiento significativos. La comprensión de esta condición es fundamental para proporcionar el apoyo adecuado a aquellos que la padecen, permitiendo así una mejor calidad de vida y tratamiento.
       </p>
     </a>
+    
   )
 }
 
