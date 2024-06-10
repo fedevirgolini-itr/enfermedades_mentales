@@ -1,0 +1,31 @@
+.mi-elemento{
+  width: 100%;
+  height: 100%;
+  /* padding: 10px;
+  margin: 10px; */
+  position: absolute;
+  background:linear-gradient(to top, #BFAFA6, #D4D2D5 );
+}
+
+.mi-elemento h1 {
+color: darkblue;
+text-align: center;
+margin: 20px;
+margin-bottom: 40px;
+text-decoration: underline
+}
+
+.mi-elemento h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  color: #6C698D;
+}
+
+.mi-elemento h3 {
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  margin-right: 10px;
+  color: #6E6A6F
+}

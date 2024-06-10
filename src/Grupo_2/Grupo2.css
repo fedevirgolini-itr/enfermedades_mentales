@@ -37,6 +37,7 @@
     text-align:justify;
     text-indent: 30%;
 }
+
 #container .mainTitle font{
     font-family: TheBoldFont !important;
 }
@@ -50,7 +51,6 @@
 #content img {
     display: block;
     margin: auto;
-
 }
 
 
