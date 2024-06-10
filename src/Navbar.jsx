@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <div className="logo">
-          <img src="LogoITR-60.jpeg" alt="Instituto Técnico Renault" />
+          <img src={`${process.env.PUBLIC_URL}/LogoITR-60.jpeg`} alt="Instituto Técnico Renault" />
         </div>
         <nav>
           <ul>
