@@ -28,7 +28,6 @@ function Grupo5() {
         <p>__________________________________________________</p>
         <h6>***Recuerde que para un diagnostico certero debe asistir a un especialista***</h6>
         <br></br>
-        <br></br>
         <h2>Test de Conocimientos</h2>
         <p>Con respecto a lo leído, responda para ver que tanto aprendió y recuerda</p>
         <Test />
