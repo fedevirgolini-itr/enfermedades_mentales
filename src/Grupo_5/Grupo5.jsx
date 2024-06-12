@@ -12,7 +12,7 @@ import Test from './Test';
 function Grupo5() {
   return (
     <main >
-      <div className="container">
+      <div className="container-g5">
         <img class='cabeceraimg' src="https://images.vexels.com/content/130396/preview/floral-ornamented-divider-decoration-63e429.png" alt="Día del T.Bipolar" />
         <div className='titulo-lindo'>
           <h1>Transtorno de Bipolaridad</h1>

@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div className="logo">
+        <Link to="/" className="logo">
           <img src={`${process.env.PUBLIC_URL}/LogoITR-60.jpeg`} alt="Instituto Técnico Renault" />
-        </div>
+        </Link>
         <nav>
           <ul>
             <li><Link to="/">Inicio</Link></li>

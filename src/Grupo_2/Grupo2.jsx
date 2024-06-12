@@ -114,7 +114,7 @@ function Grupo2() {
     <br />
     <Conclusion />
     <h1 class = "title">Juego interactivo:</h1>
-    <iframe src="https://editor.p5js.org/KaidaCat/full/yuT_399fwk" width="810px" height="650px"></iframe>
+    <iframe title='Juego' src="https://editor.p5js.org/KaidaCat/full/yuT_399fwk" width="810px" height="650px"></iframe>
     </div>
   </div>
     
