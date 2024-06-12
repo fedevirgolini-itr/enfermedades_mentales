@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/enfermedades_mentales/static/css/main.1696a56f.css",
-    "main.js": "/enfermedades_mentales/static/js/main.059e94c2.js",
+    "main.css": "/enfermedades_mentales/static/css/main.47175f9c.css",
+    "main.js": "/enfermedades_mentales/static/js/main.cf5d7300.js",
     "static/media/cupula.jpg": "/enfermedades_mentales/static/media/cupula.8f2c38ea7a87bf204db4.jpg",
     "static/media/popUp-8.png": "/enfermedades_mentales/static/media/popUp-8.45fae807012d8beecb2d.png",
     "static/media/ansi-4.png": "/enfermedades_mentales/static/media/ansi-4.413d8d325c0520d342e3.png",
@@ -23,11 +23,11 @@
     "static/media/popUp-2.png": "/enfermedades_mentales/static/media/popUp-2.e0029f80a4c03a8fad6b.png",
     "static/media/popUp-6.png": "/enfermedades_mentales/static/media/popUp-6.b50e3e744d6deec53e15.png",
     "index.html": "/enfermedades_mentales/index.html",
-    "main.1696a56f.css.map": "/enfermedades_mentales/static/css/main.1696a56f.css.map",
-    "main.059e94c2.js.map": "/enfermedades_mentales/static/js/main.059e94c2.js.map"
+    "main.47175f9c.css.map": "/enfermedades_mentales/static/css/main.47175f9c.css.map",
+    "main.cf5d7300.js.map": "/enfermedades_mentales/static/js/main.cf5d7300.js.map"
   },
   "entrypoints": [
-    "static/css/main.1696a56f.css",
-    "static/js/main.059e94c2.js"
+    "static/css/main.47175f9c.css",
+    "static/js/main.cf5d7300.js"
   ]
 }
